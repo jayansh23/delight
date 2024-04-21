@@ -1,0 +1,747 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+ /* .main-wrapper {
+    overflow-y: scroll ;
+    overflow-x: hidden;
+}   */
+
+nav{
+    font-weight: bold;
+    align-items: center;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+border-bottom:2px solid red;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0px 25px 0px 25px;
+    font-size: 14;
+}
+.header{
+    background-color:rgb(233, 230, 230);
+    padding: 0 20px;
+    /* position:fixed;  */
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    
+
+}
+h1{
+    font-style: oblique;
+    font-size: 44px;
+}
+.navbutton{
+    background-color: rgb(244, 55, 55);
+    border-radius: 30px;
+    color: white;
+    margin-right: 80px;
+}
+.cardbutton{
+    background-color: rgb(244, 55, 55);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.cardbutton:hover{
+    background-color: white;
+    color: red;
+}
+
+.frontbutton{
+    background-color: rgb(245, 34, 34);
+    border-radius: 30px;
+    color: white;
+    margin-top: 20px;
+    padding-right: 15px;
+    margin-left: -10px;
+}
+
+
+p{
+    font-style: oblique;
+    font-size: 18px;
+}
+.bannerdiv{
+    
+    background-color: rgb(215, 212, 212);
+    height: 650px;
+}
+#bannerh1{
+ padding-right: 200px;
+}
+
+.bannercontent{
+margin-top: 160px;
+padding-right: 70px;
+justify-content: left;
+}
+.bannerPic {
+justify-content: center;
+margin-top: 80px;
+}
+
+/* about */
+
+.aboutpic{
+    background-image: url(../image/about.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+.about-header{
+text-align: center;
+margin-top: 75px;
+margin-bottom: 35px;
+}
+.about2{
+ margin-left: 20px ;
+ margin-right: 40px;
+ padding-right: 60px;
+ padding-left: 50px;
+ margin-top: 50px;
+
+
+}
+.check2{
+    color: red;
+}
+.aboutbox{
+border: 2px solid  white;
+width: 500px;
+height: 120px;
+background-color: white;
+margin-top: 530px;
+margin-left: 150px;
+padding-top: 15px;
+}
+.aboutsec{
+    margin: 0px;
+}
+/* card */
+
+.aboutCard {
+    background-color: #eee;
+    height: 560px;
+    padding: 70px 0;
+
+  }
+  .abouticon{
+    color: red;
+    font-size: 40px;
+    background:rgb(251, 234, 234);
+    border-radius: 50%;
+    padding: 18px;
+  
+  }
+  .divIcone{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+.card1{
+    height: 100%;
+    margin-bottom: 70px;
+    margin-top: -40px;
+    background-color: rgb(194, 7, 7);
+    color: white;
+    transition: transform .5s ease;
+  }
+
+  .card1:hover {
+    transform: scale(1.1m); 
+
+  }
+
+.card3Para{
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+.card3{
+    height: auto;
+    margin: 7px;
+    margin-bottom: 60px;
+    transition: transform .5s ease;
+
+}
+.card3:hover {
+    transform: scale(1.1m); 
+
+}
+
+.coundownbanner{
+    /* background-image: url(../image/stats-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.60;  
+   width: 100%;
+   height: 500px;
+   background: linear-gradient rgba(0,0.0,0.20);
+   padding: 100px 0; */
+   /* filter: grayscale(100%); */
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/stats-bg.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+
+
+
+
+
+
+
+.countdownboxes{
+    color:#fff;
+    text-align: center;
+    font-size: 60px;
+
+}
+/* menu */
+.menuContent{
+    margin-top: 20px;
+    padding: 90px;
+}
+.menu1ro{
+    border: none;
+    text-align: center;
+}
+.menu2ro{
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+h1 {
+    text-align: center;
+}
+h6{
+    font-size: 14;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+
+
+}
+
+h3 {
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    /* color: red; */
+}
+.menupicDiv{
+    /* margin-top: 50px;
+    margin-bottom: 30px; */
+    padding: 50px;
+}
+.nav-pills .nav-link{
+    border-bottom: 2px solid gray;
+    margin-left: 20px;
+    color: gray;
+    background-color: none;
+    border-radius: 0px;
+    
+}
+.customtab{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: red;
+    background-color: transparent;
+    border-bottom:2px solid red;
+
+}
+/* testmonial */
+.testmonPics img{
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-top: 70px;
+    width: 180px;
+    height: 180px;
+    margin-right: -20px;
+  
+}
+.dobleCot{
+
+    /* color: red; */
+
+}
+.testimonDiv{
+ width: 100%;
+ height: 600px;
+ background-color: rgb(248, 239, 239);
+ text-align: left;
+ padding-top: 70px;
+}
+.testmonStar{
+    color: rgb(235, 207, 50);
+}
+.testmonPara{
+width: 400px;
+margin-left: 180px;
+margin-top: 60px;
+border-left: 3px solid red;
+padding-left: 20px;
+}
+/* events */
+
+.eventDiv {
+    width: 100%;
+    margin-top: 60px;
+    
+}
+
+.eventpics{
+
+    position: relative;
+}
+
+.eventpics img{
+    height: 400px;
+    border: 2px solid white;
+    opacity: .30px;
+    margin-top: 40px;
+    /* filter: grayscale(80%); */
+    
+}
+
+.eventContent{
+    position: absolute;
+    bottom: 20px ;
+   left: 10px;
+   color: white;
+   font-weight: bolder;
+}
+.chefDiv{
+    background-color: rgb(244, 242, 242);
+    margin-top: 90px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+
+    
+}
+.chefPics{
+    margin: 30px;
+    position: relative;
+    text-align: center;
+
+}
+.chefPics:hover{
+    transform: scale(.95);
+
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+    display: block;
+
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: red;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    display: none;
+}
+
+/* .card:hover + .hide {
+    display: block;
+    background-color: red;
+} */
+
+ /* for social media display */
+ .chefPics:hover .hide{
+    display:inline;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    z-index: 99;
+} 
+.hide{display: none;} 
+/* 
+.chefPics:hover img {
+    display: none;
+} */
+ 
+.chefIcone{
+list-style-type: none;
+font-size: 20px;
+
+}
+
+/* book-table */
+.bookTable-div{
+    margin-top: 80px;
+}
+.formArea{
+    background-color: rgb(232, 226, 226);
+}
+.bookAtable{
+   margin-top: 50px;
+
+}
+
+.formDiv{
+    margin: 24px 0px 0px;
+    padding:0px 12px;
+    font-size: 16px;
+
+}
+.formContent{
+    margin-top: 60px;
+}
+input{
+    width: 100%;
+    border: 1px solid rgb(207 205 205);  
+      height: 50px;
+    padding-left: 20px;
+    background: whitesmoke;
+
+}
+.FormTextarea{
+    background-color:whitesmoke ;
+    width: 95%;
+    padding: 20px;
+    border: 1px solid rgb(207 205 205);  
+border-radius: 0px;
+    margin-left: 15px;
+    margin: 15px;
+}
+.formbutton{
+    background-color: rgb(211, 43, 43);
+    border-radius: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 300px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+
+/* gallery */
+
+.galleryDiv{
+    height: 600px;
+    margin-top: 80px;
+    background-color: rgb(247, 243, 243);
+    padding-top: 50px;
+}
+
+.galleryPics{
+    margin-top: 120px;
+}
+.galleryPics img{
+    
+    height: 180px;
+     width: 100px; 
+    margin-right: 30px;
+}
+.galleryslider{
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
+
+#carousel-2 .owl-item.center{
+    background-color: red;
+    padding: 10px;
+}
+
+/* contact */
+.contactdiv{
+    margin-top: 60px;
+}
+
+.contactMap{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+
+.boxdiv4{
+    /* height: 350px;
+    width: 100%;
+    background:rgb(242, 240, 240); */
+}
+.box4content{
+    margin: 10px;
+    padding: 10px;
+}
+.box4 {
+    padding: 40px;
+    margin-top: 30px;
+    background: rgb(227, 226, 226);
+    padding-bottom: 10px;
+}
+.contentDiv{
+    padding: 10px;
+}
+
+.icon4{
+    color:white;
+    background:red;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 5px;
+    padding-top: 20px;
+
+ 
+}
+.p-area{
+    margin-left: 60px;
+
+}
+
+.bigformContent{
+    /* height: 450px;
+    width: 100%;
+    margin-top: 60px;
+    background-color: rgb(248, 242, 242);
+    margin-bottom: 40px; */
+  
+}
+.formStuff {
+    /* padding-top: 20px; */
+    /* padding-bottom: 10px; */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bigformDiv{
+    margin: 24px 0px 0px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 30px;
+
+}
+.bigFormTextarea{
+    background-color:whitesmoke ;
+    width: 95%;
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(207 205 205);  
+    margin: 15px;
+    margin-left: 20px;
+
+  
+}
+.bigformbutton{
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 500px;
+    background-color: red;
+    font-size: 20px;
+
+}
+
+#input-1{
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    border: 1px solid rgb(207 205 205);  
+
+}
+
+/* footer */
+
+.footerDiv{
+    background-color: black;
+    color: white;
+    height: 250px;
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px; 
+
+    
+}
+.footerIcon{
+    margin: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    
+    /* .navbar-toggler{background-color:black;} */
+
+  .order-1{order: 2 !important;}
+  .order-2{order: 1 !important;}
+
+    
+   .col-1, .col-2, .col-3, .col-4, .col-5,.col-6,.col-7, 
+   .col-8, .col-9, .col-10, .col-11, .col-12 {width: 100%;} 
+
+   .header{
+    height: auto;
+
+   }
+
+    .aboutCard{
+        height: auto;
+    }
+    .bannerPic{margin-top: 130px;}
+
+    .bannerdiv{height: auto;}
+
+    .bannercontent {
+        text-align: center;
+    }
+    .frontbutton{
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .aboutbox{
+        width: 250px;
+        margin-left: 100px;
+    }
+
+    .card1{
+        height:auto;
+    }
+
+    .card3{
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .coundownbanner{ height: auto;}
+    .countdownboxes {
+        font-size: 70px;
+        text-align: center;
+
+    }
+    .menuContent {
+        padding: 20px;
+    }
+
+    .customtab{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .testimonDiv  {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .testmonPara{
+        margin-left: 15px;
+        width: 100%;
+    }
+    .testmonPics img{
+        width: 250px;
+        height: 250px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .FormTextarea{
+        border-color: rgb(97, 92, 92);
+        margin-left:-2px ;
+    }
+
+    .boxdiv4{
+        height: auto;
+    }
+    .bigformContent{
+        height: auto;
+    }
+    .bigformbutton{
+        margin-left: 90px;
+        padding: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .formArea{
+        margin-top: 0px;
+        background-color: rgb(239, 235, 235);
+    }
+    input{
+        margin: 10px;
+        padding: 10px;
+    }
+    .formbutton{
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:800px)
+{
+        /* .logo{
+            float: left;
+    } */
+    .header{height: auto;}
+    .order-1{order: 2 !important;}
+    .order-2{order: 1 !important;}
+  
+   .col-1, .col-2, .col-3, .col-4, .col-5,.col-6,.col-7, 
+     .col-8, .col-9, .col-10, .col-11, .col-12 {
+        width: 100%;}
+
+
+
+    .bannerdiv{
+        height: auto;
+    }
+    .bannercontent {
+        margin-top: 30px;
+    }
+    .bannerPic {
+        margin-top: 130px;
+    }
+    
+
+    .bannercontent{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .about2{
+        margin-left: -10px;
+    }
+    .aboutbox {
+        margin-left: 100px;
+    }
+    .col-md-5{
+        width: 100%;
+    }
+    .col-md-5 {
+        width: 100%;
+    }
+    .card1{height: auto;}
+    .card3{height: auto;}
+    .coundownbanner{height: auto;}
+    .testimonDiv{height: auto;}
+    .boxdiv4{
+        height: auto;
+    }
+    .bigformContent{height: auto;}
+
+  
+
+}
+
+
+
+
+
+
+
